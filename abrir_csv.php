@@ -47,8 +47,8 @@ $cabecalho = fgetcsv($fp, 1000, ";");
     <style>
 
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            font-family: font-family: "New Rocker", system-ui;
+            background-color: #230303;
             margin: 0;
             padding: 30px;
         }
@@ -57,10 +57,11 @@ $cabecalho = fgetcsv($fp, 1000, ";");
             width: 90%;
             max-width: 1000px;
             margin: auto;
-            background-color: white;
+            background-color:  #540101;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0 15px rgba(0,0,0,0.15);
+            color: white;
         }
 
         h1 {
@@ -75,7 +76,7 @@ $cabecalho = fgetcsv($fp, 1000, ";");
         }
 
         th {
-            background-color: #007bff;
+            background-color: #565656;
             color: white;
             padding: 12px;
             text-align: left;
@@ -87,7 +88,7 @@ $cabecalho = fgetcsv($fp, 1000, ";");
         }
 
         tr:hover {
-            background-color: #f5f5f5;
+            background-color: #797979;
         }
 
         .botoes {
@@ -118,8 +119,26 @@ $cabecalho = fgetcsv($fp, 1000, ";");
             color: #555;
         }
 
+        h1{
+            font-family: "New Rocker", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 50px;
+            color: white;
+        }
+
+         .new-rocker-regular {
+            font-family: "New Rocker", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+
     </style>
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
 </head>
 
 <body>
